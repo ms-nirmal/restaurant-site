@@ -1,0 +1,214 @@
+:root{
+    --red:#CC3F0C;
+    --green:#33673B;
+    --white:#D8CBC7;
+    --brown:#9A6D38;
+    --black:#19231A;
+}
+header i{
+    font-size:.8em;
+    align-self: center;
+}
+h2,hr{
+    margin: 0;
+}
+body{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:var(--white);
+    background:url(./media/pexels-chan-walrus-941869\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+header a{
+    text-decoration: none;
+    color: var(--red);
+}
+header{
+    height: 5vh;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+nav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}   
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: var(--green);
+}
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+.quotes div{
+    margin-top: .5em;
+}
+.quote1{
+    font-size: 4em;
+    color: var(--white);
+    text-shadow: 5px 5px 5px var(--brown);
+}
+.quote2{
+    font-size:1.8em;
+    color: var(--white);
+    text-shadow: 5px 5px 5px var(--brown);
+    }
+.contact{
+    font-size:1.8em;
+    color: var(--white);
+    text-shadow: 5px 5px 5px var(--brown);
+    }
+.quotes button{
+    width:20vw;
+    font-size: larger;
+    border-radius: 10px;
+    padding: .5em;
+    margin: .5em;
+    color: var(--red);
+    background: var(--black);
+    border: 2px solid var(--white);
+}
+button:hover{
+    color: var(--green);
+    background: var(--black);
+    cursor: pointer;
+}
+
+.slider-container{
+    margin: 20px auto;
+    position: relative;
+    height: 50vh;
+    width:60vw;
+    border: 5px solid var(--black);
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 5);
+    border-radius: 10px;
+    background: url('./media/3.jpg') center/cover  no-repeat;
+    transition: background 1s ease;
+    
+}
+
+.btn-left{
+    position: absolute;
+    top:48%;
+    left: 5px;
+    font-size: 50px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.btn-right{
+    position: absolute;
+    top:48%;
+    right: 5px;
+    font-size: 50px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.slider-container:hover .btn{
+    visibility: visible;
+}
+
+#menuheading,#loc{
+    background-image: linear-gradient(to right, rgba(80, 66, 39, 0.623), rgb(65, 68, 42));
+    display: flex;
+    justify-content:center;
+    color: var(--red);
+    text-shadow: 2px 2px 2px var(--white);
+    font-size: 1.5em;
+}
+.menu{
+    background-image: linear-gradient(to right, rgba(80, 66, 39, 0.623), rgb(65, 68, 42));
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    justify-content: center;
+}
+table{
+    width: 100%;
+    height:60vh;
+    padding:1em;
+}
+.menu th{
+    font-size: 1.5em;
+    color: var(--green);
+    text-shadow: 2px 2px var(--white);
+    text-decoration: underline;
+}
+.menu tr{
+    display: flex;
+    justify-content:center;
+    margin-top: .5em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.main{
+    grid-row: span 2;
+}
+.location{
+    background-image: linear-gradient(to right, rgba(80, 66, 39, 0.623), rgb(65, 68, 42));
+    display: flex;
+    justify-content: space-evenly;
+}
+.location div{
+    margin: .5em;
+    padding: .5em;
+}
+address{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: .2em;
+    margin: .2em;
+}
+.location h2{
+    color: var(--green);
+    text-shadow: 2px 2px var(--white);
+    text-decoration: underline;
+}
+.socialmedia{
+    background-image: linear-gradient(to right, rgba(80, 66, 39, 0.623), rgb(65, 68, 42));
+    display: flex;
+    height: 6vh;
+    align-items: center;
+}
+#copyright{
+    flex:1;
+}
+.socialmedia div{
+    flex:.25;
+    margin-left: 2em;
+}
+.facebook i:hover{
+    transform: scale(1.5);
+}
+.insta i:hover{
+    transform: scale(1.5);
+}
+.twitter i:hover{
+    transform: scale(1.5);
+}

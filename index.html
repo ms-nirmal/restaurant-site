@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ungal Unavagam - a Cbe Hotel!!</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <div class="homepage">
+        <header>
+            <a href="" id="logo"><i class="fa-solid fa-bowl-rice"></i> Ungal Unavagam</a>
+            <nav>
+                <a href="#loc"><i class="fa-solid fa-location-pin"></i> Location</a>
+                <a href="#menuheading"><i class="fa-solid fa-bars"></i> Menu</a>
+            </nav>
+        </header>
+        <div class="quotes">
+            <div class="quote1">
+                Cooked With Passion
+            </div>
+            <div class="quote2">
+                Served With Love
+            </div>
+            <div class="contact">
+                Contact Us @ 123456789
+            </div>
+            <button class="order-btn" onclick="order()">Order Online</button>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="slider-container">
+        <a class="btn btn-left"><ion-icon name="chevron-back-outline"></ion-icon></a>
+        <a class="btn btn-right"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+    </div>
+    
+    <hr>
+    
+    <h2 id="menuheading">Menu</h2>
+    <div class="menu">
+        <div class="starters">
+            <table>
+                <th colspan="2">Starters</th>
+                <tr>
+                    <td>Paneer Tikka</td>
+                    <td>&#8377 180</td>
+                </tr>
+                <tr>
+                    <td>Gobi 65</td>
+                    <td>&#8377 165</td>
+                </tr>
+                <tr>
+                    <td>Veg Pakoda</td>
+                    <td>&#8377 160</td>
+                </tr>
+                <tr>
+                    <td>Mirchi Bajji</td>
+                    <td>&#8377 155</td>
+                </tr>
+                <tr>
+                    <td>Chilli Gobi</td>
+                    <td>&#8377 170</td>
+                </tr>
+                <tr>
+                    <td>Baby Corn Manchurian</td>
+                    <td>&#8377 185</td>
+                </tr>
+                <tr>
+                    <td>Chilli Paneer</td>
+                    <td>&#8377 190</td>
+                </tr>
+            </table>
+        </div>
+        <div class="main">
+            <table>
+                <th colspan="2">Main Course</th>
+                <tr>
+                    <td>Veg Fried Rice</td>
+                    <td>&#8377 340</td>
+                </tr>
+                <tr>
+                    <td>Schezwan Fried Rice</td>
+                    <td>&#8377 350</td>
+                </tr>
+                <tr>
+                    <td>Veg Biriyani</td>
+                    <td>&#8377 370</td>
+                </tr>
+                <tr>
+                    <td>Paneer Biriyani</td>
+                    <td>&#8377 390</td>
+                </tr>
+                <tr>
+                    <td>Mushroom Biriyani</td>
+                    <td>&#8377 385</td>
+                </tr>
+                <tr>
+                    <td>Veg Noodels</td>
+                    <td>&#8377 360</td>
+                </tr>
+                <tr>
+                    <td>Schezwan Noodles</td>
+                    <td>&#8377 370</td>
+                </tr>
+                <tr>
+                    <td>Veg Pulav</td>
+                    <td>&#8377 340</td>
+                </tr>
+                <tr>
+                    <td>Kashmiri Pulav</td>
+                    <td>&#8377 370</td>
+                </tr>
+                <tr>
+                    <td>Sambar Rice</td>
+                    <td>&#8377 280</td>
+                </tr>
+                <tr>
+                    <td>Curd Rice</td>
+                    <td>&#8377 210</td>
+                </tr>
+            </table>
+        </div>
+        <div class="chats">
+            <table>
+                <th colspan="2">Chats</th>
+                <tr>
+                    <td>Samosa</td>
+                    <td>&#8377 120</td>
+                </tr>
+                <tr>
+                    <td>Pani Poori</td>
+                    <td>&#8377 170</td>
+                </tr>
+                <tr>
+                    <td>Masala Puri</td>
+                    <td>&#8377 160</td>
+                </tr>
+                <tr>
+                    <td>Pav Baaji</td>
+                    <td>&#8377 155</td>
+                </tr>
+                <tr>
+                    <td>Bhel Puri</td>
+                    <td>&#8377 160</td>
+                </tr>
+                <tr>
+                    <td>vada pav</td>
+                    <td>&#8377 165</td>
+                </tr>
+                <tr>
+                    <td>Raj Kachori - Best Seller</td>
+                    <td>&#8377 190</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <h2 id="loc">Locations</h2>
+    <div class="location">
+        <div class="annanagar">
+            <h2>Anna Nagar</h2>
+            <address>
+                15, 10th Main Road</br>
+                Anna Nagar,</br>
+                Chennai - 600102
+            </address>
+        </div>
+        <div class="velachery">
+            <h2>Velachery</h2>
+            <address>
+                5, 3rd Cross Road,</br>
+                Vijaya Nagar,</br>
+                Velachery,</br>
+                Chennai - 600042
+            </address>
+        </div>
+    </div><hr>
+    <footer>
+        <div class="socialmedia">
+            <div id="copyright">&#169 copyright Ungal Unavagam</div>
+            <div class="facebook">
+                <i class="fa-brands fa-facebook"></i> facebook</div>
+            <div class="insta">
+                <i class="fa-brands fa-square-instagram"></i> Instagram</div> 
+            <div class="twitter">
+                <i class="fa-brands fa-square-twitter"></i>  Twitter</div>
+        </div>
+    </footer>
+</body>
+</html>
